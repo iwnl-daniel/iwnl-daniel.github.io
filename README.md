@@ -1,6 +1,8 @@
 # Daniel Gregorio-Torres
 > 06/07/23
+
 > CS 463
+
 > Final Project
 
 Link to [GitHub Repository](https://github.com/iwnl-daniel/iwnl-daniel.github.io)
