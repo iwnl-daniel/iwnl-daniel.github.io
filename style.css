@@ -1,0 +1,30 @@
+/* Hero Section CSS */
+section#hero-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+    url("https://studyportals-cdn2.imgix.net/5f3d48efdfac4.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  padding: 20%;
+  color: white;
+  text-align: center;
+}
+.avatar {
+  border-radius: 50%;
+  width: 25%;
+  height: auto;
+  border: #ffd700 solid 5px;
+}
+.avatarBorder {
+  text-align: center;
+}
+h1.name {
+  color: #ffd700;
+}
+p.tagline {
+  color: #ffd700;
+  font-style: italic;
+}
