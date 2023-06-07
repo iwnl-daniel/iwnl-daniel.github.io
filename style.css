@@ -28,3 +28,23 @@ p.tagline {
   color: #ffd700;
   font-style: italic;
 }
+/* About Section */
+section#about {
+  background-color: #dbdbdb;
+  color: black;
+  width: 100%;
+  height: auto;
+  padding: 2%;
+  text-align: center;
+  position: relative;
+  display: flex;
+}
+.about-title {
+  margin: 2%;
+}
+.about-p {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  vertical-align: middle;
+}
