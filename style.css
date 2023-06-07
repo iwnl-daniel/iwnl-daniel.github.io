@@ -1,3 +1,11 @@
+/* Navbar Section */
+#about-select,
+#work-select,
+#projects-select,
+#contact-select {
+  position: relative;
+  top: -100px;
+}
 /* Hero Section CSS */
 section#hero-section {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
@@ -50,8 +58,8 @@ section#work {
   position: relative;
   display: flex;
 }
-section li,
-h3 {
+section#work li,
+section#work h3 {
   text-align: left;
 }
 .img-top {
@@ -59,4 +67,35 @@ h3 {
 }
 #work .row {
   margin: 2%;
+}
+/* Projects Section */
+section#projects {
+  background-color: #dbdbdb;
+  color: black;
+  padding: 2%;
+  text-align: center;
+}
+.carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  height: 50vh;
+  overflow: hidden;
+}
+.carousel-item:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.45);
+}
+.carousel-caption {
+  z-index: 1;
+}
+.carousel-inner h3,
+.carousel-inner p {
+  text-align: center;
+  color: black;
+  background-color: white;
 }

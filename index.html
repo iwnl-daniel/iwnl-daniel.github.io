@@ -38,10 +38,10 @@
           </button>
           <div class="collapse navbar-collapse" id="nav-collapse">
             <div class="navbar-nav ms-auto">
-              <a class="nav-link" href="#about">About</a>
-              <a class="nav-link" href="#work">Previous Work</a>
-              <a class="nav-link" href="#projects">Projects</a>
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link" href="#about-select">About</a>
+              <a class="nav-link" href="#work-select">Previous Work</a>
+              <a class="nav-link" href="#projects-select">Projects</a>
+              <a class="nav-link" href="#contact-select">Contact</a>
             </div>
           </div>
         </div>
@@ -57,6 +57,7 @@
     </section>
     <!-- About Section -->
     <section id="about">
+      <div id="about-select"></div>
       <div class="container">
         <h2>About</h2>
         <div class="row">
@@ -76,6 +77,7 @@
     </section>
     <!-- Previous Work Section -->
     <section id="work">
+      <div id="work-select"></div>
       <div class="container">
         <h2>Previous Work</h2>
         <div class="row">
@@ -157,6 +159,119 @@
               class="img-top"
             />
           </div>
+        </div>
+      </div>
+    </section>
+    <!-- Projects Section -->
+    <section id="projects">
+      <div id="projects-select"></div>
+      <div class="container">
+        <h2>Projects</h2>
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a href="https://github.com/iwnl-daniel/footballAPI">
+                <img
+                  src="https://cdn.bleacherreport.net/images_root/slides/photos/000/533/114/102817760_original.jpg?1291067116"
+                  class="d-block w-100"
+                  alt="Lil Baby rapping"
+                />
+                <div class="carousel-caption d-md-block">
+                  <h3>footballAPI</h3>
+                  <p>
+                    The purpose of this small web app is to demonstrate some of
+                    the information that can be obtained using the
+                    https://www.football-data.org/ Free API Subscription.
+                    <br />(Click to see repository)
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="carousel-item">
+              <a href="https://www.youtube.com/">
+                <img
+                  src="https://www.malwarebytes.com/blog/news/2023/01/easset_upload_file97126_255809_e.png"
+                  class="d-block w-100"
+                  alt="Floyd Mayweather"
+                />
+                <div class="carousel-caption d-md-block">
+                  <h3>riotLeaderboards</h3>
+                  <p>
+                    Created a Python Flask web application front-end that
+                    utilized RiotGames’ API, containerized it using Docker, and
+                    deployed the web application to Cloud Run using Cloud
+                    Datastore backend. This web application show the user the
+                    current rank rankings for Valorant and League of Legends.
+                    <br />(Click to see repository)
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="carousel-item">
+              <a href="https://www.youtube.com/">
+                <img
+                  src="https://cdn.shopify.com/s/files/1/0694/6904/5010/files/Profile_16.9_8df97c62-8692-4dde-988d-d0570f07bf0c.png?v=1677201074"
+                  class="d-block w-100"
+                  alt="Drake laughing"
+                />
+                <div class="carousel-caption d-md-block">
+                  <h3>The-ChocAn-Simulator</h3>
+                  <p>
+                    Worked as part of a six-member team to develop a service
+                    tracking system. Analyzed functional requirements, developed
+                    code, and tested software applications. Some key features
+                    include member id validation, register service, and patient/
+                    provider summary reports.
+                    <br />(Click to see repository)
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
     </section>
