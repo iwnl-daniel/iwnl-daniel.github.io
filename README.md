@@ -6,6 +6,7 @@
 > Final Project
 
 Link to [GitHub Repository](https://github.com/iwnl-daniel/iwnl-daniel.github.io)
+
 Link to [Deployed Website](https://iwnl-daniel.github.io/)
 
 ### Navbar Section
