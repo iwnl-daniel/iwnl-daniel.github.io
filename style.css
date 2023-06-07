@@ -39,12 +39,24 @@ section#about {
   position: relative;
   display: flex;
 }
-.about-title {
-  margin: 2%;
-}
-.about-p {
-  display: inline-block;
-  text-align: center;
+/* Work Section */
+section#work {
+  background-color: #c2c2c2;
+  color: black;
   width: 100%;
-  vertical-align: middle;
+  height: auto;
+  padding: 2%;
+  text-align: center;
+  position: relative;
+  display: flex;
+}
+section li,
+h3 {
+  text-align: left;
+}
+.img-top {
+  width: 40%;
+}
+#work .row {
+  margin: 2%;
 }
