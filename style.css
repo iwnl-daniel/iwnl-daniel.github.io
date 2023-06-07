@@ -121,14 +121,11 @@ section#contact-icons {
   background-color: #edefef;
   color: black;
   width: 100%;
-  height: 50px;
+  height: auto;
   padding: 5px;
   text-align: center;
   position: relative;
   display: flex;
-}
-#contact-icons a {
-  color: #213921;
 }
 /* Footer Section */
 section#footer-section {
