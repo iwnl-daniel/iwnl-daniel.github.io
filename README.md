@@ -82,3 +82,7 @@ The JavaScript code adds form validation functionality to the website.
 ![alt text](https://github.com/iwnl-daniel/iwnl-daniel.github.io/blob/main/images/badLog.png)
 ### Good Log
 ![alt text](https://github.com/iwnl-daniel/iwnl-daniel.github.io/blob/main/images/goodLog.png)
+
+### Project was created using the following Resources
+
+[Bootstrap](https://getbootstrap.com/)
