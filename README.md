@@ -86,3 +86,9 @@ The JavaScript code adds form validation functionality to the website.
 ### Project was created using the following Resources
 
 [Bootstrap](https://getbootstrap.com/)
+
+[WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/)
+
+[CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+
+[Markup Validation Service](https://validator.w3.org/)
